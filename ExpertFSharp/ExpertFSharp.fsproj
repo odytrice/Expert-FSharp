@@ -53,6 +53,7 @@
     <Compile Include="AssemblyInfo.fs" />
     <None Include="Chapter4.fsx" />
     <None Include="Chapter5.fsx" />
+    <None Include="Chapter9.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
