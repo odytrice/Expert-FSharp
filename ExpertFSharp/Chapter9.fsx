@@ -29,8 +29,6 @@ let rec sizeCont tree cont =
             sizeCont treeRight (fun rightSize -> 
                 cont (leftSize + rightSize)))
 
-let size cont tree = sizeCont tree cont
-
 tree 
 |> build 10
-|> size id
+|> sizeCont <| id
