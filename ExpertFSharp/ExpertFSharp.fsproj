@@ -54,6 +54,7 @@
     <None Include="Chapter4.fsx" />
     <None Include="Chapter5.fsx" />
     <None Include="Chapter9.fsx" />
+    <None Include="Chapter10.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
